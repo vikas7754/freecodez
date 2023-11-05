@@ -1,8 +1,8 @@
 import React from 'react'
 
-const page = () => {
+const page = ({ params }: { params: { id: string } }) => {
   return (
-    <div>page</div>
+    <div>page {params.id}</div>
   )
 }
 
